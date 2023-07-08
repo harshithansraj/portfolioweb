@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshit's Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+            overflow: auto;
+        }
+
+        footer {
+            flex-shrink: 0;
+        }
+
+        .about-section {
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            margin: 100px 0;
+        }
+
+        .about-left-section {
+            flex: 4;
+            margin-right: 80px;
+            /* Add left margin */
+        }
+
+        .about-profile-photo {
+            width: 100%;
+            height: auto;
+            margin-left: 50px;
+        }
+
+        .about-right-section {
+            flex: 8;
+        }
+
+        .about-right-section h1 {
+            font-size: 3rem;
+            color: grey;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .about-right-section p {
+            font-size: 1.8rem;
+            color: rgb(248, 248, 248);
+            line-height: 1.6;
+            margin-top: 0;
+        }
+
+        .profile-image {
+            width: 60px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(4, 4, 119);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            margin: 0 23px;
+        }
+
+        nav ul li a:hover {
+            color: brown;
+            font: 1.1rem;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 233px;
+        }
+
+        footer .footer-right {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img src="/Users/harshithansraj/Desktop/infostrixs/Infostrixs/week1/portfoliowebsite/profile.jpeg"
+                    alt="Profile Image" class="profile-image">
+                Harshit's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="https://github.com/harshithansraj" target="_blank">Projects</a></li>
+                    <li><a href="mailto:hansrajharshit@gmail.com">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <hr>
+        <section class="about-section">
+            <div class="about-left-section">
+                <img src="1679076197405.jpeg" alt="Profile Photo" class="about-profile-photo">
+            </div>
+            <div class="about-right-section">
+                <h1>About Me</h1>
+                <p>I am a passionate software engineer with a strong focus on web development. I have experience in
+                    HTML, CSS, JavaScript and React. My goal is to create user-friendly and visually
+                    appealing web applications that provide meaningful solutions.</p>
+            </div>
+        </section>
+
+        <hr>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Harshit Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        <div class="footer-right">
+            &#169; All Rights Reserved
+        </div>
+    </footer>
+</body>
+
+</html>
